@@ -1,8 +1,8 @@
 name: Hello World
 'on': push
 jobs: null
-my-job: null
-runs-on: ubuntu-latest
-steps:
-  - name: Print Hello World
-run: echo "Hello World!"
+  my-job: null
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello World!"
